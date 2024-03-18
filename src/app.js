@@ -3,7 +3,11 @@ import "./style.css";
 window.onload = () => {
   //escribiendo mi generador de excusas
   //definiendo constantes a utilizar
-  const sujetos = ["Mi perro", "Mi gato", "Mi raton", "Mi pokemon"];
+  const sujetos = [
+    "Mi perro", 
+    "Mi gato", 
+    "Mi raton", 
+    "Mi pokemon"];
   const acciones = [
     "se comió",
     "estropeó",
@@ -20,8 +24,8 @@ window.onload = () => {
     "manana",
     "ayer"
   ];
-  //creando funcion
-  function generarExcusa(indiceAleatorio) {
+    //creando funcion
+    function generarExcusa(indiceAleatorio) {
     const sujeto = sujetos[indiceAleatorio];
     const accion = acciones[indiceAleatorio];
     const cosa = cosas[indiceAleatorio];
